@@ -4,11 +4,12 @@
   "author": "Juan E Gilbert",
   "license": "UNLICENSED",
   "description": "Print Me Test",
-  "main": "src/index.js",
+  "main": "/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make"
+    "make": "electron-forge make",
+    "build": "npx tsc"
   },
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
