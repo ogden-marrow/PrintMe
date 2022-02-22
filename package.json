@@ -1,0 +1,11 @@
+{
+  "name": "PrintMe",
+  "version": "1.0.0",
+  "author": "Juan E Gilbert",
+  "license": "UNLICENSED",
+  "description": "Print Me Test",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm install && electron ."
+  }
+}
