@@ -1,29 +1,32 @@
 <html>
+
 <head>
-<title>Print Me</title>
+	<title>Print Me</title>
 
-<script language="JavaScript">
-	var Phrases = new Array();
-	var i=0;
+	<script language="JavaScript">
+		var Phrases = new Array();
+		var i = 0;
 
-	Phrases[0] = "Hello World";
-	Phrases[1] = "UF CISE is #1";
-	Phrases[2] = "Computing is everywhere";
-	Phrases[3] = "Learn to code";
-	Phrases[4] = "Florida is a top 5 public university";
-	Phrases[5] = "Go Gators!!!";
+		Phrases[0] = "Hello World";
+		Phrases[1] = "UF CISE is #1";
+		Phrases[2] = "Computing is everywhere";
+		Phrases[3] = "Learn to code";
+		Phrases[4] = "Florida is a top 5 public university";
+		Phrases[5] = "Go Gators!!!";
 
-	function PrintIt()
-	{
-		if (i > 5) i=0;
-		self.document.getElementById("myText").innerHTML = Phrases[i++];
-		window.print();
-	}
-</script>
+		function PrintIt() {
+			if (i > 5) i = 0;
+			self.document.getElementById("myText").innerHTML = Phrases[i++];
+			window.print();
+		}
+	</script>
 </head>
 
 <body>
-<br><br><br><br><br><center><h1 id='myText'>The text will go here. Press the Print It button.</h1></center>
+	<br><br><br><br><br>
+	<center>
+		<h1 id='myText'>The text will go here. Press the Print It button.</h1>
+	</center>
 </body>
 
 </HTML>
