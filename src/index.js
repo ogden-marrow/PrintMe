@@ -6,14 +6,13 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    fullscreen: true,
     webPreferences: {
       devTools: false
     }
   });
 
-	mainWindow.setMenu(null);
-	mainWindow.loadFile(path.join(__dirname, 'index.html'));
+  mainWindow.setMenu(null);
+  mainWindow.loadFile(path.join(__dirname, 'index.html'));
 };
 
 app.on('ready', createWindow);
@@ -28,6 +27,5 @@ app.on('activate', () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     createWindow();
   }
-})
-;
+});
 

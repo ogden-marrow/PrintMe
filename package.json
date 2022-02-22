@@ -4,6 +4,7 @@
   "author": "Juan E Gilbert",
   "license": "UNLICENSED",
   "description": "Print Me Test",
+
   "main": "src/index.js",
   "scripts": {
     "start": "electron ."
