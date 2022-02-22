@@ -6,6 +6,9 @@
   "description": "Print Me Test",
   "main": "src/index.js",
   "scripts": {
-    "start": "npm install && electron ."
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^17.0.1"
   }
 }
