@@ -4,7 +4,7 @@
   "author": "Juan E Gilbert",
   "license": "UNLICENSED",
   "description": "Print Me Test",
-  "main": "/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",

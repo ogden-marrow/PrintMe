@@ -1,21 +1,21 @@
 {
     "include": [
-      "src"
+        "src"
     ],
     "compilerOptions": {
-      "target": "ESNext",
-      "module": "commonjs",
-      "allowJs": true,
-      "watch": false,
-      // Generate d.ts files
-      "declaration": true,
-      "declarationMap": true,
-      "sourceMap": true,
-      "outDir": "dist",
-      "esModuleInterop": true
+        "target": "ESNext",
+        "module": "commonjs",
+        "allowJs": true,
+        "watch": false,
+        // Generate d.ts files
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "dist",
+        "esModuleInterop": true
     },
     "exclude": [
-      "node_modules",
-      "dist"
+        "node_modules",
+        "dist"
     ]
-  }
+}
