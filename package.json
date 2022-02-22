@@ -11,7 +11,8 @@
     "make": "electron-forge make"
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.63",
